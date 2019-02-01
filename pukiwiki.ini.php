@@ -113,7 +113,7 @@ default  :
 $page_title = 'PukiWiki';
 
 // Specify PukiWiki URL (default: auto)
-//$script = 'http://example.com/pukiwiki/';
+$script = 'http://34.85.24.200/pukiwiki/';
 
 // Shorten $script: Cut its file name (default: not cut)
 //$script_directory_index = 'index.php';
@@ -122,7 +122,7 @@ $page_title = 'PukiWiki';
 $modifier = 'anonymous';
 
 // Site admin's Web page (CHANGE THIS)
-$modifierlink = 'http://pukiwiki.example.com/';
+$modifierlink = 'http://34.85.24.200/';
 
 // Default page name
 $defaultpage  = 'FrontPage';     // Top / Default page

@@ -41,7 +41,8 @@ body,td {
 	margin-left:2%;
 	margin-right:2%;
 	font-size:90%;
-	font-family:verdana, arial, helvetica, Sans-Serif;
+	font-weight:500;
+	font-family:游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
 }
 
 a:link {
@@ -170,7 +171,7 @@ tfoot th.style_th {
 .style_table {
 	padding:0px;
 	border:0px;
-	margin:auto;
+	margin:0px;
 	text-align:left;
 	color:inherit;
 	background-color:#ccd5dd;
@@ -348,7 +349,7 @@ td.menubar {
 <?php   if ($media == 'print') { ?>
 	display:none;
 <?php   } else { ?>
-	width:9em;
+	width:15em;
 	vertical-align:top;
 <?php   } ?>
 }
@@ -357,7 +358,7 @@ div#menubar {
 <?php   if ($media == 'print') { ?>
 	display:none;
 <?php   } else { ?>
-	width:9em;
+	width:15em;
 	padding:0px;
 	margin:4px;
 	word-break:break-all;
@@ -367,13 +368,13 @@ div#menubar {
 }
 
 div#menubar ul {
-	margin:0px 0px 0px .5em;
-	padding:0px 0px 0px .5em;
+	margin:0px 0px 0px 1em;
+	padding:0px 0px 0px 1em;
 }
 
-div#menubar ul li { line-height:110%; }
+div#menubar ul li { line-height:1.5em; }
 
-div#menubar h4 { font-size:110%; }
+div#menubar h4 { font-size:1.5em; }
 
 div#body {
 	padding:0px;
