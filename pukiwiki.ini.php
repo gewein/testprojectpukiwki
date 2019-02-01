@@ -110,10 +110,10 @@ default  :
 /////////////////////////////////////////////////
 // Title of your Wikisite (Name this)
 // Also used as RSS feed's channel name etc
-$page_title = 'PukiWiki';
+$page_title = 'TestProjectGoogleCloud';
 
 // Specify PukiWiki URL (default: auto)
-$script = 'http://34.85.24.200/pukiwiki/';
+$script = 'http://34.85.24.200/pukiwiki/index.php';
 
 // Shorten $script: Cut its file name (default: not cut)
 //$script_directory_index = 'index.php';
